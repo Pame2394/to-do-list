@@ -100,3 +100,26 @@ body {
   .empty {
     color: darkslategrey;
   }
+
+  @media only screen and (max-width: 678px) {
+    /* For mobile phones: */
+    input {
+        padding: 0;
+        outline: none;
+        width: 230px;
+      }
+    
+  }
+
+  @media only screen and (max-width: 412px) {
+    /* For mobile phones: */
+    .container {
+        margin-top:70%;
+        width: auto;
+        background-color: white;
+        padding: 30px;
+      }
+    
+  }
+
+  
